@@ -1,0 +1,118 @@
+ body {
+   position: relative;
+   width: 1512px;
+   height: 982px;
+   background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1IRI5FSddNRMV_rtuevBdGhAltk9tXF9thQ&usqp=CAU') no-repeat;
+  background-size: cover;
+  }
+
+
+ .mask-group {
+   /* Mask Group */
+
+   position: absolute;
+   width: 1512px;
+   height: 803px;
+   left: 0px;
+   top: 0px;
+  background: url('begina-kisembo--rMEwp6TMLs-unsplash.jpg');
+
+
+   
+ }
+ .menu-btn ul p {
+   /* Baycungban */
+   position: absolute;
+   width: 453px;
+   height: 21px;
+   left: 171px;
+   top: 30px;
+   font-size: 25px;
+   font-weight: bold;
+ }
+ .menu-btn ul a {
+   padding: 10px;
+   gap: 30px;
+   align-items: flex-start;
+   position: relative;
+   width: 453px;
+   height: 21px;
+   left: 529px;
+   top: 48px;
+ }
+ .btn {
+   /* Auto layout */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 16px;
+   gap: 10px;
+   color: #FFFFFF;
+   position: absolute;
+   width: 118px;
+   height: 41px;
+   left: 1223px;
+   top: 38px;
+   background: #4D46FA;
+   border-radius: 12px;
+ }
+ h1 {
+   position: absolute;
+   width: 184px;
+   height: 105px;
+   left: 171px;
+   top: 227px;
+   font-family: 'SVN-Biennale';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 72px;
+   line-height: 105px;
+   color: #000000;
+ }
+
+ h2 {
+   position: absolute;
+   width: 340px;
+   height: 105px;
+   left: 171px;
+   top: 305px;
+   font-family: 'SVN-Biennale';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 72px;
+   line-height: 105px;
+   color: #000000;
+ }
+
+ h3 {
+   position: absolute;
+   width: 474px;
+   height: 109px;
+   left: 171px;
+   top: 383px;
+   font-family: 'SVN-Biennale';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 72px;
+   line-height: 105px;
+   color: #000000;
+ }
+
+ .end-page p{
+  width: 195px;
+height: 21px;
+left: 194px;
+top: 921px;
+
+font-family: 'SVN-Biennale';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #000000;
+ }

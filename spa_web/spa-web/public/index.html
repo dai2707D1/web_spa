@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <meta name="color-scheme" content="light">
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+
+  <div class="container">
+    <!-- Nav -->
+    <nav class="main-nav">
+
+      <ul class="main-menu">
+
+       <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Read</a></li>
+        <li><a href="#">CCCC</a></li>
+        <li><a href="#">DDDD</a></li>
+        <li><a href="#">GGG</a></li>
+       </ul>
+      </ul>
+
+      <ul class="right-menu">
+        <li>
+          <a href="#">
+            <i class="fa fa-search" aria-hidden="true"></i>
+
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--đổi màu page-->
+    <div>
+      <select id="theme" onChange="switchTheme()">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+    </div>
+    <!-- Showcase -->
+    <header class="showcase">
+      <h1> Welcome to my page</h1>
+      <a href="#" class="btn">
+        Bấm dô đê <i class="fas fa-chevron-right"></i>
+      </a>
+      <p class="left-top"> Vui vẻ là được làm đẹp cho người
+        làm đẹp cho đời...<br>Và đó là động lực để
+        chúng tôi không ngừng nỗ lực</p>
+    </header>
+    <h2> SPA BÀ NHÈ
+
+      CÔNG NGHỆ HÀN QUỐC</h2>
+    <p> BÀ NHÈ sẽ cập nhật & chuyển giao công nghệ, máy móc tân tiến từ Hàn Quốc,Hoa Kỳ,...<br> đem đến giải pháp thẩm
+      mỹ tối ưu</p>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>Spa App</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <!--Chạy hình -->
+
+  <div id="slide">
+    <div class="item" style="background-image: url(avt.png);"></div>
+    <div class="item" style="background-image: url(bìa DL.png);"></div>
+    <div class="item" style="background-image: url(Đ&D.png);"></div>
+  </div>
+
+  <!---- Mua gói snip -->
+
+  <div class="snip1464">
+    <div class="plan">
+      <header>
+        <h4 class="plan-title">
+          Starter
+        </h4>
+        <div class="plan-cost"><span class="plan-price">$19</span><span class="plan-type">/month</span></div>
+      </header>
+      <ul class="plan-features">
+        <li><i class="ion-checkmark"> </i>5GB Linux Web Space</li>
+        <li><i class="ion-checkmark"> </i>5 MySQL Databases</li>
+        <li><i class="ion-checkmark"> </i>Unlimited Email</li>
+        <li><i class="ion-checkmark"> </i>250Gb mo Transfer</li>
+        <li><i class="ion-checkmark"> </i>24/7 Tech Support</li>
+        <li><i class="ion-checkmark"> </i>Daily Backups</li>
+      </ul>
+      <div class="plan-select"><a href="">Select Plan</a></div>
+    </div>
+    <div class="plan">
+      <header>
+        <h4 class="plan-title">
+
+          Basic
+        </h4>
+        <div class="plan-cost"><span class="plan-price">$29</span><span class="plan-type">/month</span></div>
+      </header>
+      <ul class="plan-features">
+        <li><i class="ion-checkmark"> </i>10GB Linux Web Space</li>
+        <li><i class="ion-checkmark"> </i>10 MySQL Databases</li>
+        <li><i class="ion-checkmark"> </i>Unlimited Email</li>
+        <li><i class="ion-checkmark"> </i>500Gb mo Transfer</li>
+        <li><i class="ion-checkmark"> </i>24/7 Tech Support</li>
+        <li><i class="ion-checkmark"> </i>Daily Backups</li>
+      </ul>
+      <div class="plan-select"><a href="">Select Plan</a></div>
+    </div>
+    <div class="plan featured">
+      <header>
+        <h4 class="plan-title">
+
+          Pro
+        </h4>
+        <div class="plan-cost"><span class="plan-price">$49</span><span class="plan-type">/month</span></div>
+      </header>
+      <ul class="plan-features">
+        <li><i class="ion-checkmark"> </i>25GB Linux Web Space</li>
+        <li><i class="ion-checkmark"> </i>25 MySQL Databases</li>
+        <li><i class="ion-checkmark"> </i>Unlimited Email</li>
+        <li><i class="ion-checkmark"> </i>2000Gb mo Transfer</li>
+        <li><i class="ion-checkmark"> </i>24/7 Tech Support</li>
+        <li><i class="ion-checkmark"> </i>Daily Backups</li>
+      </ul>
+      <div class="plan-select"><a href="">Select Plan</a></div>
+    </div>
+    <div class="plan">
+      <header>
+        <h4 class="plan-title">
+
+          Ultra
+        </h4>
+        <div class="plan-cost"><span class="plan-price">$99</span><span class="plan-type">/month</span></div>
+      </header>
+      <ul class="plan-features">
+        <li><i class="ion-checkmark"> </i>100GB Linux Web Space</li>
+        <li><i class="ion-checkmark"> </i>Unlimited MySQL Databases</li>
+        <li><i class="ion-checkmark"> </i>Unlimited Email</li>
+        <li><i class="ion-checkmark"> </i>10000Gb mo Transfer</li>
+        <li><i class="ion-checkmark"> </i>24/7 Tech Support</li>
+        <li><i class="ion-checkmark"> </i>Daily Backups</li>
+      </ul>
+      <div class="plan-select"><a href="">Select Plan</a></div>
+    </div>
+  </div>
+
+  <!-- load chơi-->
+  <div class="music-waves">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</body>
+
+</html>
